@@ -58,7 +58,18 @@
 			<artifactId>spring-kafka-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>com.tfxbank</groupId>
+            <artifactId>cqrs.core</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.tfxbank</groupId>
+            <artifactId>account.common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+    </dependencies>
 
 	<build>
 		<plugins>
